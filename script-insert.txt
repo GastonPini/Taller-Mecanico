@@ -1,0 +1,29 @@
+INSERT INTO public.persona(id, dni, nombre, apellido)
+VALUES (1, '36159587', 'Gastón', 'Pini');
+
+INSERT INTO public.persona(id, dni, nombre, apellido)
+VALUES (2, '38383838', 'Fernando', 'Weysheim');
+
+INSERT INTO public.persona(id, dni, nombre, apellido)
+VALUES (3, '32323232', 'Lionel', 'Messi');
+
+INSERT INTO public.persona(id, dni, nombre, apellido)
+VALUES (4, '31313131', 'Lucas', 'Schneider');
+
+INSERT INTO public.persona(id, dni, nombre, apellido)
+VALUES (5, '30303030', 'Enzo', 'Mesa');
+
+INSERT INTO public.usuario(id, nombreusuario, password, rol, personaid)
+VALUES (1, 'chumi', '123', 'mecánico', 1);
+
+INSERT INTO public.usuario(id, nombreusuario, password, rol, personaid)
+VALUES (2, 'fer', '456', 'mecánico', 2);
+
+INSERT INTO public.usuario(id, nombreusuario, password, rol, personaid)
+VALUES (3, 'messirve', '789', 'admin', 3);
+
+INSERT INTO public.usuario(id, nombreusuario, password, rol, personaid)
+VALUES (4, 'lucas', '123', 'admin', 4);
+
+INSERT INTO public.usuario(id, nombreusuario, password, rol, personaid)
+VALUES (5, 'corre', '123', 'admin', 5);
