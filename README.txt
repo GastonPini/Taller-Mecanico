@@ -1,30 +1,36 @@
-Proyecto: TallerM
-Backup de base de datos: TallerMBackup
-Nombre de la base de datos: Taller
-Contraseña: lalala123
+# taller-mecanico
 
--------------------------------------------------------------------------------------
+taller-mecanico is an application for managing a mechanical workshop. This ensures login access to the application for an administration user and a mechanical user.
+The Administration user can register/deregister/modify: Brands, Models, Vehicles and 
 
-Personas y usuarios de ejemplos, también disponibles en el archivo script-insert.txt.
+## Project: TallerM
+## Database backup: TallerMBackup
+## Database Name: Taller
 
--------------------------------------------------------------------------------------
+### Password: lalala123
 
-Proyecto TallerM probado en:
+-------------------------------------------------- -----------------------------------
+
+Example people and users, also available in the script-insert.txt file.
+
+-------------------------------------------------- -----------------------------------
+
+TallerM project tested in:
 Ubuntu 20.04, NetBeans 8.2 - pgAdmin4
 Windows 7 Ultimate, NetBeans 11.1 - pgAdmin4
 Windows 7 Ultimate, NetBeans 11.3 - pgAdmin4
 
-(el renderizado puede variar según el SO)
+(rendering may vary depending on the OS)
 
--------------------------------------------------------------------------------------
+-------------------------------------------------- -----------------------------------
 
-Debido a contratiempos, la clase "Mantenimiento" no llegó a ser implementada.
+Due to setbacks, the "Mantenimiento" class cloud not be fully implemented.
 
--------------------------------------------------------------------------------------
+-------------------------------------------------- -----------------------------------
 
-Base de datos creada mediante las sentencias provistas por la cátedra* en la semana 10: script-tallermecanico.sql
+Database created using the statements provided by the chair* in week 10: script-tallermecanico.sql
 (https://campus.frcu.utn.edu.ar/virtual/pluginfile.php/37183/mod_resource/content/1/script-tallermecanico.sql).
 
-* Se editó el formato de "fecha" en la tabla "mantenimientos", de "date" a "character varying" (String).
+* Edited the "date" format in the "maintenance" table, from "date" to "character varying" (String).
 
-* En la tabla "vehículos", se almacenaron a los dueños en la columna "descripcion".
+* In the "vehicles" table, the owners were stored in the "description" column.
