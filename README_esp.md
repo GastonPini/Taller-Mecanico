@@ -22,9 +22,9 @@ Personas y usuarios de ejemplos, también disponibles en el archivo script-inser
 -------------------------------------------------------------------------------------
 
 Proyecto TallerM probado en:  
-Ubuntu 20.04, NetBeans 8.2 - pgAdmin4.  
-Windows 7 Ultimate, NetBeans 11.1 - pgAdmin4.  
-Windows 7 Ultimate, NetBeans 11.3 - pgAdmin4.  
+* Ubuntu 20.04, NetBeans 8.2 - pgAdmin4.  
+* Windows 7 Ultimate, NetBeans 11.1 - pgAdmin4.  
+* Windows 7 Ultimate, NetBeans 11.3 - pgAdmin4.  
 (el renderizado puede variar según el SO)  
 
 #### Algunos detalles de implementación:
