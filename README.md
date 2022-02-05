@@ -1,8 +1,8 @@
 # Taller Mecanico
 
-taller-mecanico is an application for managing a mechanical workshop. This ensures login access to the application for an administration user and a mechanical user.
-The Administration user can register/deregister/modify: Brands, Models, Vehicles and Maintenance services.  
-The mechanic user can register/deregister/modify Maintenance services.  
+taller-mecanico is an application for managing a mechanical workshop. This ensures login access to the application for an administration user and a mechanical user:  
+* The Administration user can register/deregister/modify: Brands, Models, Vehicles and Maintenance services.  
+* The mechanical user can register/deregister/modify Maintenance services.  
 
 ### Project: TallerM
 ### Database backup: TallerMBackup
@@ -27,7 +27,7 @@ TallerM project tested in:
 - Windows 7 Ultimate, NetBeans 11.3 - pgAdmin4.  
 (rendering may vary depending on the OS)
 
-#### Some details:
+#### Some implementation details:
 
 * Due to setbacks, "Mantenimiento" class cloud not be fully implemented.
 
