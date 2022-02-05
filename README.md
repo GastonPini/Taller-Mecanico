@@ -1,36 +1,36 @@
-# Taller Mecanico
+# Taller Mecánico
 
-taller-mecanico is an application for managing a mechanical workshop. This ensures login access to the application for an administration user and a mechanical user:  
-* The Administration user can register/deregister/modify: Brands, Models, Vehicles and Maintenance services.  
-* The mechanical user can register/deregister/modify Maintenance services.  
+taller-mecanico es una aplicación para administrar un taller mecámico. Esto incluye el login a la aplicación para un usuario de administración y un usuario mecánico:  
+* El usuario de administración puede realizar el alta/baja/modificaciones de: Marcas, Modelos, Vehículos y Mantenimiento.  
+* The usuario mecánico puede realizar el alta/baja/modificaciones de Mantenimiento.  
 
-### Project: TallerM
-### Database backup: TallerMBackup
-### Database Name: Taller
+### Proyecto: TallerM
+### Backup de base de datos: TallerMBackup
+### Nombre de la base de datos: Taller
 
-#### Password: lalala123
+#### Contraseña: lalala123
 
--------------------------------------------------- -----------------------------------
+-------------------------------------------------------------------------------------
 
-Database created using the statements provided by the chair* in week 10: script-tallermecanico.sql
+Base de datos creada mediante las sentencias provistas por la cátedra* en la semana 10: script-tallermecanico.sql
 (https://campus.frcu.utn.edu.ar/virtual/pluginfile.php/37183/mod_resource/content/1/script-tallermecanico.sql).
 
--------------------------------------------------- -----------------------------------
+-------------------------------------------------------------------------------------
 
-Example people and users, also available in the script-insert.txt file.
+Personas y usuarios de ejemplos, también disponibles en el archivo script-insert.txt.
 
--------------------------------------------------- -----------------------------------
+-------------------------------------------------------------------------------------
 
-TallerM project tested in:
-- Ubuntu 20.04, NetBeans 8.2 - pgAdmin4.  
-- Windows 7 Ultimate, NetBeans 11.1 - pgAdmin4.  
-- Windows 7 Ultimate, NetBeans 11.3 - pgAdmin4.  
-(rendering may vary depending on the OS)
+Proyecto TallerM probado en:  
+Ubuntu 20.04, NetBeans 8.2 - pgAdmin4.  
+Windows 7 Ultimate, NetBeans 11.1 - pgAdmin4.  
+Windows 7 Ultimate, NetBeans 11.3 - pgAdmin4.  
+(el renderizado puede variar según el SO)  
 
-#### Some implementation details:
+#### Algunos detalles de implementación:
 
-* Due to setbacks, "Mantenimiento" class cloud not be fully implemented.
+* Debido a contratiempos, la clase "Mantenimiento" no llegó a ser implementada.  
 
-* "date" format edited in the "maintenance" table, from "date" to "character varying" (String).
+* Se editó el formato de "fecha" en la tabla "mantenimientos", de "date" a "character varying" (String).  
 
-* In "vehicles" table, the owners were stored in the "description" column.
+* En la tabla "vehículos", se almacenaron a los dueños en la columna "descripcion".  
