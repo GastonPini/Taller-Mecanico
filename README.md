@@ -1,7 +1,8 @@
 # Taller Mecanico
 
 taller-mecanico is an application for managing a mechanical workshop. This ensures login access to the application for an administration user and a mechanical user.
-The Administration user can register/deregister/modify: Brands, Models, Vehicles and 
+The Administration user can register/deregister/modify: Brands, Models, Vehicles and Maintenance services.  
+The mechanic user can register/deregister/modify Maintenance services.  
 
 ### Project: TallerM
 ### Database backup: TallerMBackup
